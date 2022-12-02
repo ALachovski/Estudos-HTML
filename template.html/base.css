@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #cce9ff91;
+    padding: 10px 20px 0px;
+}
+.menu ul{
+    list-style-type: none;
+    padding-top: 38px;
+    padding-left: 10px;
+}
+.menu ul li{
+    padding-bottom: 15px;
+}
+.header {
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-medico-abstrato-com-formas-de-estrutura-hexagonal_1017-20046.jpg?w=900&amp;t=st=1669933254~exp=1669933854~hmac=79c169cb2fde18fbf41fc16beeac676160fc965d20b5e8602d90bb6e84e66b41");
+    max-height: 150px;
+    height: 150px;
+    background-position-y: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #cce9ff91;
+    min-height: 150px;   
+    position: relative;
+    bottom: 0;
+}
+.footer .content-info{
+    height: 150px;
+    align-items: center;
+    padding-top: 38px;
+
+}
+.footer .content-info i,
+.footer .content-info blockquote {
+    justify-content: center;
+    display: flex;
+}
+.footer .content-info blockquote a:not(:last-of-type) {
+    padding-right: 5px;
+}
+
+form .content-data{
+    display: flex;
+    padding-bottom: 15px;
+}
+
+form label {
+    width: 100px;
+}
+table thead th {
+    background-color: #cce9ff91;
+    color: rgb(59, 56, 56);
+    border: solid 1px gray
+}
+table tfoot td {
+    background-color: lightgray;
+}
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+}
+table tbody tr:hover td {
+    background-color: #c8e4fa;
+    cursor: pointer; 
+}
