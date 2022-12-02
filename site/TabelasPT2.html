@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        table thead th {
+            background-color: black;
+            color: white;
+            border: solid 1px gray
+        }
+        table tfoot td {
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover td {
+            background-color: #e9e9e9;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <table width="250" align="center" cellspacing=" 0" cellpadding="5" > 
+        <caption>Descrição tabela</caption>       
+    <thead>
+        <tr>
+            <th colspan="2">Minha tabela</th> 
+        </tr>
+        <tr>
+            <th>nome</th>
+            <th>idade</th>
+        </tr>
+    </thead>
+        
+    <tbody>
+        <tr>
+            <td>Adriano</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>rafael</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>eugenio</td>
+            <td>34</td>
+        </tr>
+    </tbody>
+        
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
